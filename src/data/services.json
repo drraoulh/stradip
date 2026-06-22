@@ -1,0 +1,29 @@
+[
+  {
+    "activitySlug": "commerce-general",
+    "title": "Commerce général",
+    "services": [
+      { "name": "Négoce de produits divers", "description": "Approvisionnement en produits industriels et de consommation pour entreprises et distributeurs." },
+      { "name": "Gestion de stocks", "description": "Entrepôts à Douala pour une disponibilité rapide de nos gammes." },
+      { "name": "Livraison locale", "description": "Distribution sur Douala et les principales villes du Cameroun." }
+    ]
+  },
+  {
+    "activitySlug": "import-export",
+    "title": "Import-Export",
+    "services": [
+      { "name": "Importation de matières premières", "description": "Sourcing international pour la production de ciment colle et peintures." },
+      { "name": "Export de produits finis", "description": "Vitrine internationale pour nos gammes à destination des marchés sous-régionaux." },
+      { "name": "Logistique & douanes", "description": "Accompagnement dans les démarches d'import-export et de transit." }
+    ]
+  },
+  {
+    "activitySlug": "prestations",
+    "title": "Prestations diverses",
+    "services": [
+      { "name": "Conseil technique", "description": "Accompagnement des applicateurs et entrepreneurs sur le choix et l'application des produits." },
+      { "name": "Partenariat distributeur", "description": "Conditions préférentielles pour les revendeurs et grossistes partenaires." },
+      { "name": "Services sur mesure", "description": "Prestations adaptées aux besoins spécifiques de nos clients professionnels." }
+    ]
+  }
+]

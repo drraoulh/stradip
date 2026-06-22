@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --stradip-black: #0c1929;
+  --stradip-charcoal: #1a2d42;
+  --stradip-blue: #1a6cb5;
+  --stradip-blue-dark: #0d4a8a;
+  --stradip-blue-light: #3b8fd9;
+  --stradip-red: #e30613;
+  --stradip-red-dark: #b8050f;
+  --slate: #5a6b7d;
+  --muted: #f0f4f8;
+  --muted-blue: #e8f2fb;
+  --border: #d8e2ec;
+  --white: #ffffff;
+  --foreground: #0c1929;
+
+  --background: var(--white);
+  --primary: var(--stradip-black);
+  --accent: var(--stradip-red);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--stradip-charcoal);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--stradip-red);
+  --color-accent-dark: var(--stradip-red-dark);
+  --color-brand: var(--stradip-blue);
+  --color-brand-dark: var(--stradip-blue-dark);
+  --color-brand-light: var(--stradip-blue-light);
+  --color-slate: var(--slate);
+  --color-cream: var(--muted);
+  --color-sky: var(--muted-blue);
+  --color-border: var(--border);
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-jakarta);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0d4a8a 0%, #1a6cb5 45%, #0c1929 100%);
+}
+
+.page-hero-gradient {
+  background: linear-gradient(120deg, #0c1929 0%, #1a6cb5 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 24px -4px rgba(12, 25, 41, 0.08);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 12px 40px -8px rgba(12, 25, 41, 0.15);
+}

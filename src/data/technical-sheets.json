@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Fiche technique — Ciment colle standard",
+    "product": "Ciment colle",
+    "file": "/docs/fiche-ciment-colle-standard.pdf",
+    "description": "Caractéristiques, mode d'emploi et conditions de stockage."
+  },
+  {
+    "id": "2",
+    "title": "Fiche technique — Ciment colle haute performance",
+    "product": "Ciment colle",
+    "file": "/docs/fiche-ciment-colle-hp.pdf",
+    "description": "Formulation renforcée pour supports difficiles et zones humides."
+  },
+  {
+    "id": "3",
+    "title": "Fiche technique — Peinture acrylique intérieur",
+    "product": "Peintures",
+    "file": "/docs/fiche-peinture-acrylique.pdf",
+    "description": "Rendement, temps de séchage et recommandations d'application."
+  },
+  {
+    "id": "4",
+    "title": "Fiche technique — Vernis protecteur",
+    "product": "Peintures",
+    "file": "/docs/fiche-vernis-protecteur.pdf",
+    "description": "Protection et finition pour bois et surfaces traitées."
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "1", "title": "Production ciment colle", "category": "Ciment colle", "image": "/images/gallery/ciment-1.jpg", "alt": "Ligne de production de ciment colle STRADIP" },
+  { "id": "2", "title": "Entrepôt Douala", "category": "Installations", "image": "/images/gallery/entrepot-1.jpg", "alt": "Entrepôt de stockage STRADIP à Douala" },
+  { "id": "3", "title": "Gamme peintures", "category": "Peintures", "image": "/images/gallery/peinture-1.jpg", "alt": "Gamme de peintures STRADIP" },
+  { "id": "4", "title": "Chantier carrelage", "category": "Réalisations", "image": "/images/gallery/chantier-1.jpg", "alt": "Application de ciment colle sur chantier" },
+  { "id": "5", "title": "Produits de beauté", "category": "Beauté", "image": "/images/gallery/beaute-1.jpg", "alt": "Produits de beauté distribués par STRADIP" },
+  { "id": "6", "title": "Équipe STRADIP", "category": "Événements", "image": "/images/gallery/equipe-1.jpg", "alt": "Équipe STRADIP lors d'un événement professionnel" }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ciment-colle",
+    "slug": "ciment-colle",
+    "title": "Ciment colle",
+    "shortDescription": "Production et distribution de ciment colle pour carrelage, faïence et revêtements.",
+    "description": "STRADIP SARL fabrique et distribue une gamme complète de ciment colle adaptée aux chantiers résidentiels, commerciaux et industriels. Nos formulations garantissent une adhérence optimale, une résistance à l'humidité et une facilité d'application pour les professionnels du BTP et les particuliers.",
+    "benefits": [
+      "Adhérence renforcée sur tous types de supports",
+      "Résistance à l'eau et à l'humidité",
+      "Temps ouvert adapté aux conditions de chantier",
+      "Conditionnements variés pour distributeurs et gros œuvre"
+    ],
+    "image": "/images/products/ciment-colle.jpg",
+    "icon": "layers"
+  },
+  {
+    "id": "peintures-vernis",
+    "slug": "peintures-vernis",
+    "title": "Peintures & vernis",
+    "shortDescription": "Peintures de toute nature et vernis pour intérieur, extérieur et usages industriels.",
+    "description": "Notre gamme de peintures et vernis couvre les besoins des chantiers, des entreprises et des particuliers. Des finitions mates aux laques haute brillance, STRADIP propose des produits durables, couvrants et adaptés au climat tropical camerounais.",
+    "benefits": [
+      "Large palette de couleurs et finitions",
+      "Résistance aux UV et à l'humidité",
+      "Produits intérieur, extérieur et industriel",
+      "Conseils techniques pour les applicateurs"
+    ],
+    "image": "/images/products/peintures.jpg",
+    "icon": "paintbrush"
+  },
+  {
+    "id": "produits-beaute",
+    "slug": "produits-beaute",
+    "title": "Produits de beauté",
+    "shortDescription": "Distribution de produits de beauté et cosmétiques pour revendeurs et distributeurs.",
+    "description": "STRADIP SARL distribue une sélection de produits de beauté et cosmétiques destinés aux revendeurs, boutiques et distributeurs. Notre réseau logistique permet une approvisionnement régulier et des conditionnements adaptés au commerce de détail.",
+    "benefits": [
+      "Gammes variées pour tous les profils clients",
+      "Conditionnements adaptés à la revente",
+      "Approvisionnement régulier et fiable",
+      "Partenariats distributeurs sur tout le territoire"
+    ],
+    "image": "/images/products/beaute.jpg",
+    "icon": "sparkles"
+  }
+]

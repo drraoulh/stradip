@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Approvisionnement chantier résidentiel",
+    "client": "Promoteur immobilier — Douala",
+    "year": "2025",
+    "category": "Ciment colle",
+    "description": "Fourniture de ciment colle pour un projet de 120 logements à Akwa.",
+    "image": "/images/realisations/projet-1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Réseau distributeurs Littoral",
+    "client": "Réseau de revendeurs",
+    "year": "2024",
+    "category": "Peintures",
+    "description": "Mise en place d'un réseau de 15 points de vente pour la gamme peintures STRADIP.",
+    "image": "/images/realisations/projet-2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Partenariat import matières premières",
+    "client": "Fournisseur international",
+    "year": "2024",
+    "category": "Import-Export",
+    "description": "Opération d'import de résines et additifs pour la production de peintures.",
+    "image": "/images/realisations/projet-3.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Distribution produits beauté",
+    "client": "Chaîne de boutiques",
+    "year": "2025",
+    "category": "Beauté",
+    "description": "Approvisionnement régulier de produits de beauté pour une chaîne de distribution nationale.",
+    "image": "/images/realisations/projet-4.jpg"
+  }
+]

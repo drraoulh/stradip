@@ -1,0 +1,63 @@
+{
+  "company": {
+    "name": "STRADIP SARL",
+    "tagline": "Transformation & Distribution",
+    "description": "Production et distribution de ciment colle, peintures, produits de beauté, commerce général, import-export et prestations de services à Douala.",
+    "founded": 2014,
+    "address": "Akwa, rue PO derrière AFRIQUE CONSTRUCTION, Douala — Cameroun",
+    "bp": "BP 14122 Dla",
+    "email": "stradipsarl2014@yahoo.com",
+    "phone": "+237 697 272 108",
+    "phoneRaw": "+237697272108",
+    "phones": [
+      "+237 697 272 108",
+      "+237 604 902 543",
+      "+237 671 344 431",
+      "+237 699 101 817"
+    ],
+    "whatsapp": "237697272108",
+    "director": "MEGOUO ARMEL SEMBENE",
+    "rccm": "RC/DLN/2014/B/1405",
+    "niu": "M111412208341E",
+    "cnps": "354-0114471-000-U",
+    "social": {
+      "whatsapp": "https://wa.me/237697272108",
+      "facebook": "https://facebook.com/stradipsarl",
+      "linkedin": "https://linkedin.com/company/stradip-sarl"
+    }
+  },
+  "announcement": {
+    "enabled": true,
+    "text": "STRADIP SARL — Ciment colle, peintures et produits de beauté. Demandez votre devis dès maintenant !",
+    "link": "/contact"
+  },
+  "about": {
+    "history": "Fondée en 2014 à Douala, STRADIP SARL (Société de Transformation et de Distribution des Produits Divers) s'est imposée comme un acteur de référence dans la production et la distribution de ciment colle, de peintures et de produits de beauté au Cameroun. Sous la direction de M. MEGOUO ARMEL SEMBENE, l'entreprise a développé un réseau solide de distributeurs et partenaires commerciaux, tout en diversifiant ses activités vers le commerce général, l'import-export et les prestations de services.",
+    "mission": "Fournir des produits industriels et de beauté de qualité, accessibles et fiables, en accompagnant nos clients professionnels et particuliers avec un service réactif et personnalisé.",
+    "vision": "Devenir le leader camerounais de la transformation et de la distribution de produits divers, reconnu pour la qualité de nos gammes et la confiance de nos partenaires à l'échelle nationale et internationale.",
+    "values": [
+      { "title": "Qualité", "description": "Des produits conformes aux normes, testés et approuvés par nos clients." },
+      { "title": "Confiance", "description": "Une relation durable avec distributeurs, partenaires et clients finaux." },
+      { "title": "Innovation", "description": "Des formulations et gammes adaptées aux besoins du marché camerounais." },
+      { "title": "Proximité", "description": "Une équipe accessible à Douala, au service de vos projets et chantiers." }
+    ],
+    "team": [
+      {
+        "name": "MEGOUO ARMEL SEMBENE",
+        "role": "Directeur Général",
+        "description": "Fondateur et dirigeant de STRADIP SARL, il pilote la stratégie de développement et les relations partenaires."
+      }
+    ]
+  },
+  "process": [
+    { "step": 1, "title": "Prise de contact", "description": "Transmettez votre besoin via formulaire, email, téléphone ou WhatsApp." },
+    { "step": 2, "title": "Analyse & devis", "description": "Notre équipe étudie votre demande et vous propose une offre adaptée." },
+    { "step": 3, "title": "Commande", "description": "Validation du devis et planification de la livraison ou de la prestation." },
+    { "step": 4, "title": "Livraison", "description": "Distribution sur Douala et dans les principales villes du Cameroun." },
+    { "step": 5, "title": "Suivi", "description": "Accompagnement technique et satisfaction client après livraison." }
+  ],
+  "legal": {
+    "privacy": "STRADIP SARL s'engage à protéger les données personnelles collectées via ce site. Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes et ne sont pas cédées à des tiers sans votre consentement. Conformément à la réglementation en vigueur, vous pouvez demander l'accès, la rectification ou la suppression de vos données en contactant stradipsarl2014@yahoo.com.",
+    "terms": "Les informations présentes sur ce site sont fournies à titre indicatif. STRADIP SARL se réserve le droit de modifier ses produits, services et tarifs. Toute commande fait l'objet d'un devis et d'un contrat spécifique. Siège social : Akwa, rue PO derrière AFRIQUE CONSTRUCTION, Douala — Cameroun. RCCM RC/DLN/2014/B/1405, N° Contribuable M111412208341E, CNPS 354-0114471-000-U."
+  }
+}
