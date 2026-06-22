@@ -51,9 +51,9 @@ Chaque projet : `title`, `client`, `year`, `category`, `description`, `image`.
 
 ## 3. Remplacer le logo
 
-1. Préparez votre logo en **SVG** (vectoriel) et **PNG** (fond transparent)
+1. Préparez votre logo en **SVG** (vectoriel) et **webp** (fond transparent)
 2. Remplacez `public/logo.svg`
-3. Optionnel : ajoutez `public/logo.png`
+3. Optionnel : ajoutez `public/logo.webp`
 
 ## 4. Ajouter des photos
 

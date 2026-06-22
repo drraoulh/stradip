@@ -21,8 +21,8 @@ export const metadata: Metadata = {
       "STRADIP SARL — Production et distribution de ciment colle, peintures, produits de beauté, commerce général et import-export à Douala, Cameroun.",
   }),
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo.webp",
+    apple: "/logo.webp",
   },
 };
 
