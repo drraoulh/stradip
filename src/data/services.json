@@ -1,29 +1,31 @@
 [
   {
     "activitySlug": "commerce-general",
-    "title": "Commerce général",
+    "title": "Commerce Général & Distribution",
     "services": [
-      { "name": "Négoce de produits divers", "description": "Approvisionnement en produits industriels et de consommation pour entreprises et distributeurs." },
-      { "name": "Gestion de stocks", "description": "Entrepôts à Douala pour une disponibilité rapide de nos gammes." },
-      { "name": "Livraison locale", "description": "Distribution sur Douala et les principales villes du Cameroun." }
+      { "name": "Vente de Carreaux & Sanitaires", "description": "Distribution en gros et détail de carrelages, faïences, pots W.C., lave-mains et matériel de plomberie." },
+      { "name": "Négoce de Ciment Colle & Peintures", "description": "Approvisionnement direct pour chantiers de construction, promoteurs et magasins de matériaux." },
+      { "name": "Entreposage & Stock à Douala", "description": "Entrepôts sécurisés à Akwa garantissant une disponibilité permanente des gammes." },
+      { "name": "Livraison Logistique Nationale", "description": "Distribution rapide sur Douala, Yaoundé et l'ensemble des régions du Cameroun." }
     ]
   },
   {
     "activitySlug": "import-export",
-    "title": "Import-Export",
+    "title": "Import-Export & Sourcing International",
     "services": [
-      { "name": "Importation de matières premières", "description": "Sourcing international pour la production de ciment colle et peintures." },
-      { "name": "Export de produits finis", "description": "Vitrine internationale pour nos gammes à destination des marchés sous-régionaux." },
-      { "name": "Logistique & douanes", "description": "Accompagnement dans les démarches d'import-export et de transit." }
+      { "name": "Importation de Carreaux & Plomberie", "description": "Sourcing direct auprès des usines internationales de carrelage et d'équipements sanitaires." },
+      { "name": "Importation de Matières Premières", "description": "Approvisionnement en additifs, résines et polymères pour la fabrication de nos colles et peintures." },
+      { "name": "Export & Transit Sous-Régional", "description": "Exportation de nos produits finis vers les pays de la zone CEMAC (Tchad, RCA, Gabon, Congo, Guinée Équatoriale)." },
+      { "name": "Procédures Douanières & Frêt", "description": "Gestion intégrée de la chaîne logistique maritime et des formalités d'importation." }
     ]
   },
   {
     "activitySlug": "prestations",
-    "title": "Prestations diverses",
+    "title": "Prestations & Support Technique",
     "services": [
-      { "name": "Conseil technique", "description": "Accompagnement des applicateurs et entrepreneurs sur le choix et l'application des produits." },
-      { "name": "Partenariat distributeur", "description": "Conditions préférentielles pour les revendeurs et grossistes partenaires." },
-      { "name": "Services sur mesure", "description": "Prestations adaptées aux besoins spécifiques de nos clients professionnels." }
+      { "name": "Conseil en Carrelage & Sanitaires", "description": "Orientation des architectes, carreleurs et plombiers sur le choix des matériaux adaptés aux projets." },
+      { "name": "Offres Préférentielles Revendeurs", "description": "Conditions tarifaires avantageuses et soutien marketing pour nos partenaires distributeurs." },
+      { "name": "Études de Devis & Quantitatifs", "description": "Calcul précis des métrages de carreaux, volumes de ciment colle et sanitaires nécessaires pour vos chantiers." }
     ]
   }
 ]

@@ -1,38 +1,47 @@
 [
   {
     "id": "1",
-    "title": "Approvisionnement chantier résidentiel",
-    "client": "Promoteur immobilier — Douala",
-    "year": "2025",
-    "category": "Ciment colle",
-    "description": "Fourniture de ciment colle pour un projet de 120 logements à Akwa.",
-    "image": "/images/realisations/projet-1.jpg"
+    "title": "Fourniture Carreaux & Sanitaires — Immeuble Résidentiel",
+    "client": "Promoteur Immobilier Akwa — Douala",
+    "year": "2026",
+    "category": "Carreaux & Sanitaires",
+    "description": "Importation et fourniture de 3 500 m² de grès cérame, 45 pots W.C. suspendus et 45 lave-mains pour un complexe résidentiel haut de gamme à Douala.",
+    "image": "/images/whatsapp/stradip-img-13.jpg"
   },
   {
     "id": "2",
-    "title": "Réseau distributeurs Littoral",
-    "client": "Réseau de revendeurs",
-    "year": "2024",
-    "category": "Peintures",
-    "description": "Mise en place d'un réseau de 15 points de vente pour la gamme peintures STRADIP.",
-    "image": "/images/realisations/projet-2.jpg"
+    "title": "Équipements de Plomberie & Sanitaires — Projet Hôtelier",
+    "client": "Groupe Hôtelier — Yaoundé",
+    "year": "2025",
+    "category": "Plomberie & Sanitaires",
+    "description": "Livraison de 80 ensembles pots sanitaires, meuble lavabos, colonnes de douche et robinetterie inox pour la rénovation d'un hôtel 4 étoiles.",
+    "image": "/images/whatsapp/stradip-img-20.jpg"
   },
   {
     "id": "3",
-    "title": "Partenariat import matières premières",
-    "client": "Fournisseur international",
-    "year": "2024",
-    "category": "Import-Export",
-    "description": "Opération d'import de résines et additifs pour la production de peintures.",
-    "image": "/images/realisations/projet-3.jpg"
+    "title": "Ciment Colle STRADIP pour Grand Chantier Commercial",
+    "client": "Entreprise de BTP — Douala",
+    "year": "2025",
+    "category": "Ciment Colle",
+    "description": "Approvisionnement continu de 50 tonnes de ciment colle STRADIP pour le revêtement de sol d'un centre commercial.",
+    "image": "/images/whatsapp/stradip-img-01.jpg"
   },
   {
     "id": "4",
-    "title": "Distribution produits beauté",
-    "client": "Chaîne de boutiques",
+    "title": "Façades & Peintures Bâtiment — Complexe Administratif",
+    "client": "Société Immobilière",
+    "year": "2024",
+    "category": "Peintures",
+    "description": "Fourniture des peintures d'étanchéité extérieure et peintures intérieures pour un immeuble de 6 étages.",
+    "image": "/images/whatsapp/stradip-img-05.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Distribution Produits de Beauté & Cosmétiques",
+    "client": "Réseau de boutiques cosmétiques",
     "year": "2025",
     "category": "Beauté",
-    "description": "Approvisionnement régulier de produits de beauté pour une chaîne de distribution nationale.",
-    "image": "/images/realisations/projet-4.jpg"
+    "description": "Approvisionnement régulier de produits de soins et beauté pour un réseau de 12 points de vente.",
+    "image": "/images/whatsapp/stradip-img-10.jpg"
   }
 ]

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-type ButtonVariant = "primary" | "secondary" | "outline" | "outline-light" | "ghost" | "brand";
+type ButtonVariant = "primary" | "secondary" | "outline" | "outline-light" | "ghost" | "brand" | "emerald";
 type ButtonSize = "sm" | "md" | "lg";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,16 +12,17 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variants: Record<ButtonVariant, string> = {
-  primary: "bg-accent text-white hover:bg-accent-dark shadow-sm",
-  secondary: "bg-primary text-white hover:bg-primary-light shadow-sm",
-  brand: "bg-brand text-white hover:bg-brand-dark shadow-sm",
-  outline: "border-2 border-brand text-brand bg-transparent hover:bg-brand hover:text-white",
-  "outline-light": "border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary",
-  ghost: "text-primary bg-transparent hover:text-brand",
+  primary: "bg-gradient-to-r from-amber-500 to-amber-600 text-white hover:from-amber-600 hover:to-amber-700 shadow-md hover:shadow-lg",
+  secondary: "bg-slate-900 text-white hover:bg-slate-800 shadow-md hover:shadow-lg",
+  brand: "bg-gradient-to-r from-sky-600 to-sky-700 text-white hover:from-sky-700 hover:to-sky-800 shadow-md hover:shadow-lg",
+  emerald: "bg-gradient-to-r from-emerald-600 to-emerald-700 text-white hover:from-emerald-700 hover:to-emerald-800 shadow-md hover:shadow-lg",
+  outline: "border-2 border-sky-600 text-sky-600 bg-transparent hover:bg-sky-600 hover:text-white",
+  "outline-light": "border-2 border-white/80 text-white bg-white/10 backdrop-blur-md hover:bg-white hover:text-slate-900",
+  ghost: "text-slate-800 bg-transparent hover:bg-slate-100 hover:text-sky-600",
 };
 
 const sizes: Record<ButtonSize, string> = {
-  sm: "px-5 py-2.5 text-sm",
+  sm: "px-4 py-2 text-xs",
   md: "px-6 py-3 text-sm",
   lg: "px-8 py-4 text-base",
 };
@@ -35,7 +36,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const classes = cn(
-    "inline-flex items-center justify-center gap-2 font-semibold rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand/40",
+    "inline-flex items-center justify-center gap-2 font-bold rounded-xl transition-all duration-200 cursor-pointer active:scale-95 focus:outline-none focus:ring-2 focus:ring-sky-500/40",
     variants[variant],
     sizes[size],
     className

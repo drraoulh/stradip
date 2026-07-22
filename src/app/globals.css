@@ -1,23 +1,25 @@
 @import "tailwindcss";
 
 :root {
+  --stradip-navy-dark: #070e17;
   --stradip-black: #0c1929;
-  --stradip-charcoal: #1a2d42;
-  --stradip-blue: #1a6cb5;
-  --stradip-blue-dark: #0d4a8a;
-  --stradip-blue-light: #3b8fd9;
-  --stradip-red: #e30613;
-  --stradip-red-dark: #b8050f;
-  --slate: #5a6b7d;
-  --muted: #f0f4f8;
-  --muted-blue: #e8f2fb;
-  --border: #d8e2ec;
+  --stradip-charcoal: #152438;
+  --stradip-blue: #0284c7;
+  --stradip-blue-dark: #0369a1;
+  --stradip-blue-light: #38bdf8;
+  --stradip-gold: #f59e0b;
+  --stradip-red: #dc2626;
+  --stradip-emerald: #10b981;
+  --slate: #475569;
+  --muted: #f8fafc;
+  --muted-blue: #f0f9ff;
+  --border: #e2e8f0;
   --white: #ffffff;
-  --foreground: #0c1929;
+  --foreground: #0f172a;
 
   --background: var(--white);
   --primary: var(--stradip-black);
-  --accent: var(--stradip-red);
+  --accent: var(--stradip-gold);
 }
 
 @theme inline {
@@ -26,8 +28,8 @@
   --color-primary: var(--primary);
   --color-primary-light: var(--stradip-charcoal);
   --color-accent: var(--accent);
-  --color-accent-light: var(--stradip-red);
-  --color-accent-dark: var(--stradip-red-dark);
+  --color-accent-gold: var(--stradip-gold);
+  --color-accent-red: var(--stradip-red);
   --color-brand: var(--stradip-blue);
   --color-brand-dark: var(--stradip-blue-dark);
   --color-brand-light: var(--stradip-blue-light);
@@ -47,17 +49,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-jakarta), system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-jakarta), system-ui, sans-serif;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
+/* Animations & Transitions */
 .reveal {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.55s ease, transform 0.55s ease;
+  transform: translateY(24px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .reveal.visible {
@@ -65,18 +69,64 @@ h1, h2, h3, h4 {
   transform: translateY(0);
 }
 
+/* Premium Custom Gradients */
 .hero-gradient {
-  background: linear-gradient(135deg, #0d4a8a 0%, #1a6cb5 45%, #0c1929 100%);
+  background: linear-gradient(135deg, #070e17 0%, #0f233a 40%, #0369a1 100%);
 }
 
 .page-hero-gradient {
-  background: linear-gradient(120deg, #0c1929 0%, #1a6cb5 100%);
+  background: linear-gradient(135deg, #070e17 0%, #0c1929 50%, #0284c7 100%);
 }
 
+.badge-gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+}
+
+.badge-emerald {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+}
+
+/* Glassmorphism Effects */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-dark {
+  background: rgba(7, 14, 23, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Shadows & Elevate */
 .card-shadow {
-  box-shadow: 0 4px 24px -4px rgba(12, 25, 41, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
 }
 
 .card-shadow:hover {
-  box-shadow: 0 12px 40px -8px rgba(12, 25, 41, 0.15);
+  box-shadow: 0 20px 40px -12px rgba(2, 132, 199, 0.18), 0 8px 16px -4px rgba(15, 23, 42, 0.08);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
 }

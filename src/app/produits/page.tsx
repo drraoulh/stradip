@@ -5,9 +5,9 @@ import { ProductCard } from "@/components/products/ProductCards";
 import { TechnicalSheets } from "@/components/products/TechnicalSheets";
 
 export const metadata = createMetadata({
-  title: "Nos produits",
+  title: "Nos Produits — Carreaux, Plomberie, Sanitaires & Mortiers",
   description:
-    "Ciment colle, peintures & vernis, produits de beauté — les gammes STRADIP SARL à Douala.",
+    "Importation et vente de carreaux grès cérame, pots W.C., lave-mains, sanitaires, ciment colle STRADIP, peintures et produits de beauté à Douala, Cameroun.",
   path: "/produits",
 });
 
@@ -18,12 +18,12 @@ export default function ProduitsPage() {
   return (
     <>
       <PageHero
-        title="Nos produits"
-        subtitle="Ciment colle, peintures et produits de beauté — conçus pour la performance."
+        title="Nos Produits &amp; Gammes"
+        subtitle="Carreaux grand format, matériels de plomberie & sanitaires (pots W.C., lave-mains), ciment colle, peintures et produits cosmétiques à Douala."
       />
 
       <Section>
-        <div className="grid grid-cols-1 gap-10">
+        <div className="grid grid-cols-1 gap-12">
           {products.map((product, i) => (
             <ProductCard key={product.id} product={product} index={i} />
           ))}
@@ -32,9 +32,9 @@ export default function ProduitsPage() {
 
       <Section background="sky">
         <SectionHeader
-          badge="Documentation"
-          title="Fiches techniques"
-          subtitle="Documentation produit à télécharger."
+          badge="DOCUMENTATION"
+          title="Fiches Techniques &amp; Spécifications"
+          subtitle="Téléchargez la documentation officielle de nos colles et produits de bâtiment."
         />
         <TechnicalSheets sheets={sheets} />
       </Section>

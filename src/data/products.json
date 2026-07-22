@@ -1,15 +1,45 @@
 [
   {
+    "id": "carreaux-revetements",
+    "slug": "carreaux-revetements",
+    "title": "Carreaux & Revêtements",
+    "shortDescription": "Importation et distribution de carrelages grand format, grès cérame, faïences murales et pavés antidérapants.",
+    "description": "STRADIP SARL importe et distribue une vaste gamme de carrelages haut de gamme pour sols et murs. Nos collections comprennent des grès cérame émaillés ou polis, des faïences modernes pour cuisines et salles de bain, ainsi que des dalles antidérapantes destinées aux terrasses et extérieurs. Disponibles dans un large choix de dimensions, textures et finitions marbrées ou naturelles.",
+    "benefits": [
+      "Grès cérame haute résistance (trafic intense)",
+      "Faïences et revêtements muraux design",
+      "Finition mate, satinée, brillante ou effet marbre",
+      "Disponible en gros et demi-gros avec livraison à Douala et sur tout le Cameroun"
+    ],
+    "image": "/images/products/carreaux.jpg",
+    "icon": "grid"
+  },
+  {
+    "id": "plomberie-sanitaires",
+    "slug": "plomberie-sanitaires",
+    "title": "Plomberie & Matériels Sanitaires",
+    "shortDescription": "Importation et vente de pots W.C., cuvettes, lave-mains, lavabos, colonnes de douche et robinetterie inox.",
+    "description": "STRADIP SARL est votre partenaire spécialisé dans l'importation et la vente d'équipements de plomberie et sanitaires. Nous proposons des cuvettes WC monoblocs et suspendues, des pots sanitaires économiques et haut de gamme, des lave-mains compacts, des colonnes de douche modernes, ainsi que toute la robinetterie et tuyauterie nécessaire pour vos projets de construction et rénovation.",
+    "benefits": [
+      "Large éventail de pots W.C. et lave-mains suspendus ou à poser",
+      "Robinetterie thermostatique et inox résistant à la corrosion",
+      "Solutions adaptées aux maisons, hôtels, immeubles et chantiers publics",
+      "Produits testés garantissant étanchéité et durabilité"
+    ],
+    "image": "/images/products/plomberie.jpg",
+    "icon": "droplet"
+  },
+  {
     "id": "ciment-colle",
     "slug": "ciment-colle",
-    "title": "Ciment colle",
-    "shortDescription": "Production et distribution de ciment colle pour carrelage, faïence et revêtements.",
-    "description": "STRADIP SARL fabrique et distribue une gamme complète de ciment colle adaptée aux chantiers résidentiels, commerciaux et industriels. Nos formulations garantissent une adhérence optimale, une résistance à l'humidité et une facilité d'application pour les professionnels du BTP et les particuliers.",
+    "title": "Ciment colle STRADIP",
+    "shortDescription": "Production et distribution de ciment colle haute performance pour carrelage, faïence et pierres.",
+    "description": "STRADIP SARL fabrique et distribue une gamme complète de ciment colle spécialement formulée pour la pose de carrelage, faïence et pierre naturelle sur tous types de supports. Formulation idéale pour résister au climat tropical camerounais et assurer une adhésion maximale.",
     "benefits": [
       "Adhérence renforcée sur tous types de supports",
-      "Résistance à l'eau et à l'humidité",
-      "Temps ouvert adapté aux conditions de chantier",
-      "Conditionnements variés pour distributeurs et gros œuvre"
+      "Résistance supérieure à l'eau et à l'humidité",
+      "Temps ouvert prolongé idéal pour les chantiers",
+      "Conditionnement résistant en sacs de 25 kg"
     ],
     "image": "/images/products/ciment-colle.jpg",
     "icon": "layers"
@@ -17,14 +47,14 @@
   {
     "id": "peintures-vernis",
     "slug": "peintures-vernis",
-    "title": "Peintures & vernis",
-    "shortDescription": "Peintures de toute nature et vernis pour intérieur, extérieur et usages industriels.",
-    "description": "Notre gamme de peintures et vernis couvre les besoins des chantiers, des entreprises et des particuliers. Des finitions mates aux laques haute brillance, STRADIP propose des produits durables, couvrants et adaptés au climat tropical camerounais.",
+    "title": "Peintures & Vernis",
+    "shortDescription": "Peintures bâtiment, laques et vernis pour intérieur, extérieur et environnements industriels.",
+    "description": "Notre gamme de peintures et vernis couvre l'ensemble des besoins des peintres, entreprises du BTP et particuliers. Finitions mates, satinées, brillantes et peintures d'étanchéité adaptées au climat tropical.",
     "benefits": [
-      "Large palette de couleurs et finitions",
-      "Résistance aux UV et à l'humidité",
-      "Produits intérieur, extérieur et industriel",
-      "Conseils techniques pour les applicateurs"
+      "Vaste nuancier et haute couvrance",
+      "Résistance aux rayons UV, moisissures et intempéries",
+      "Gammes intérieure, extérieure et industrielle",
+      "Accompagnement et conseils de nos experts"
     ],
     "image": "/images/products/peintures.jpg",
     "icon": "paintbrush"
@@ -32,14 +62,13 @@
   {
     "id": "produits-beaute",
     "slug": "produits-beaute",
-    "title": "Produits de beauté",
-    "shortDescription": "Distribution de produits de beauté et cosmétiques pour revendeurs et distributeurs.",
-    "description": "STRADIP SARL distribue une sélection de produits de beauté et cosmétiques destinés aux revendeurs, boutiques et distributeurs. Notre réseau logistique permet une approvisionnement régulier et des conditionnements adaptés au commerce de détail.",
+    "title": "Produits de Beauté & Cosmétiques",
+    "shortDescription": "Distribution et négoce de produits cosmétiques et soins corporels pour revendeurs.",
+    "description": "STRADIP SARL distribue une sélection de produits de beauté et cosmétiques d'excellente qualité destinés aux instituts, parapharmacies et boutiques spécialisées.",
     "benefits": [
-      "Gammes variées pour tous les profils clients",
-      "Conditionnements adaptés à la revente",
-      "Approvisionnement régulier et fiable",
-      "Partenariats distributeurs sur tout le territoire"
+      "Gammes certifiées et testées",
+      "Approvisionnement régulier avec tarifs de gros avantageux",
+      "Distribution sur tout le territoire national"
     ],
     "image": "/images/products/beaute.jpg",
     "icon": "sparkles"

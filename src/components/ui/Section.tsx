@@ -9,10 +9,10 @@ interface SectionProps {
 
 const backgrounds = {
   white: "bg-white",
-  cream: "bg-cream",
-  sky: "bg-sky",
-  navy: "bg-primary text-white",
-  grid: "bg-cream bg-[linear-gradient(rgba(26,108,181,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(26,108,181,0.04)_1px,transparent_1px)] bg-[size:48px_48px]",
+  cream: "bg-slate-50",
+  sky: "bg-gradient-to-b from-sky-50/70 to-white",
+  navy: "bg-slate-950 text-white",
+  grid: "bg-slate-50/60 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:24px_24px]",
 };
 
 export function Section({
@@ -22,8 +22,8 @@ export function Section({
   background = "white",
 }: SectionProps) {
   return (
-    <section id={id} className={cn("py-16 md:py-24", backgrounds[background], className)}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</div>
+    <section id={id} className={cn("py-16 md:py-24 relative overflow-hidden", backgrounds[background], className)}>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">{children}</div>
     </section>
   );
 }
@@ -51,8 +51,10 @@ export function SectionHeader({
       {label && (
         <span
           className={cn(
-            "inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4",
-            light ? "bg-white/15 text-white" : "bg-sky text-brand"
+            "inline-block text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 shadow-xs",
+            light
+              ? "bg-white/15 backdrop-blur-md text-amber-300 border border-white/20"
+              : "bg-sky-100 text-sky-800 border border-sky-200"
           )}
         >
           {label}
@@ -60,8 +62,8 @@ export function SectionHeader({
       )}
       <h2
         className={cn(
-          "text-3xl md:text-4xl font-extrabold tracking-tight",
-          light ? "text-white" : "text-primary"
+          "text-3xl md:text-5xl font-extrabold tracking-tight",
+          light ? "text-white" : "text-slate-900"
         )}
       >
         {title}
@@ -69,9 +71,9 @@ export function SectionHeader({
       {subtitle && (
         <p
           className={cn(
-            "mt-4 text-base md:text-lg max-w-2xl leading-relaxed",
+            "mt-4 text-base md:text-lg max-w-2xl leading-relaxed font-normal",
             centered && "mx-auto",
-            light ? "text-white/75" : "text-slate"
+            light ? "text-slate-300" : "text-slate-600"
           )}
         >
           {subtitle}
@@ -79,9 +81,11 @@ export function SectionHeader({
       )}
       <div
         className={cn(
-          "mt-5 h-1 w-14 rounded-full",
+          "mt-6 h-1.5 w-20 rounded-full",
           centered && "mx-auto",
-          light ? "bg-accent" : "bg-brand"
+          light
+            ? "bg-gradient-to-r from-amber-400 to-amber-500 shadow-sm"
+            : "bg-gradient-to-r from-sky-600 to-emerald-500 shadow-sm"
         )}
       />
     </div>
@@ -90,12 +94,12 @@ export function SectionHeader({
 
 export function PageHero({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <section className="page-hero-gradient text-white py-16 md:py-24 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_30%_50%,white,transparent_60%)]" />
+    <section className="page-hero-gradient text-white py-20 md:py-28 relative overflow-hidden">
+      <div className="absolute inset-0 opacity-15 bg-[radial-gradient(circle_at_30%_30%,#38bdf8,transparent_60%)]" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">{title}</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">{title}</h1>
         {subtitle && (
-          <p className="mt-4 text-lg text-white/80 max-w-2xl leading-relaxed">{subtitle}</p>
+          <p className="mt-4 text-lg md:text-xl text-slate-200 max-w-3xl leading-relaxed font-light">{subtitle}</p>
         )}
       </div>
     </section>

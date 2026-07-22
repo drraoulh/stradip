@@ -1,8 +1,8 @@
 {
   "company": {
     "name": "STRADIP SARL",
-    "tagline": "Transformation & Distribution",
-    "description": "Production et distribution de ciment colle, peintures, produits de beauté, commerce général, import-export et prestations de services à Douala.",
+    "tagline": "Importation, Transformation & Distribution",
+    "description": "Spécialiste de l'importation et de la vente de carreaux, matériels de plomberie & sanitaires (pots W.C., lave-mains, lavabos, robinetterie), production de ciment colle, peintures et produits de beauté à Douala, Cameroun.",
     "founded": 2014,
     "address": "Akwa, rue PO derrière AFRIQUE CONSTRUCTION, Douala — Cameroun",
     "bp": "BP 14122 Dla",
@@ -28,33 +28,33 @@
   },
   "announcement": {
     "enabled": true,
-    "text": "STRADIP SARL — Ciment colle, peintures et produits de beauté. Demandez votre devis dès maintenant !",
+    "text": "STRADIP SARL — Arrivage massif de Carreaux, Pots W.C., Lave-mains & Sanitaires ! Ciment colle & Peintures disponibles. Demandez votre devis !",
     "link": "/contact"
   },
   "about": {
-    "history": "Fondée en 2014 à Douala, STRADIP SARL (Société de Transformation et de Distribution des Produits Divers) s'est imposée comme un acteur de référence dans la production et la distribution de ciment colle, de peintures et de produits de beauté au Cameroun. Sous la direction de M. MEGOUO ARMEL SEMBENE, l'entreprise a développé un réseau solide de distributeurs et partenaires commerciaux, tout en diversifiant ses activités vers le commerce général, l'import-export et les prestations de services.",
-    "mission": "Fournir des produits industriels et de beauté de qualité, accessibles et fiables, en accompagnant nos clients professionnels et particuliers avec un service réactif et personnalisé.",
-    "vision": "Devenir le leader camerounais de la transformation et de la distribution de produits divers, reconnu pour la qualité de nos gammes et la confiance de nos partenaires à l'échelle nationale et internationale.",
+    "history": "Fondée en 2014 à Douala, STRADIP SARL (Société de Transformation et de Distribution des Produits Divers) est devenue un leader incontournable au Cameroun dans la distribution et l'importation de matériaux de finition bâtiment : carrelage grand format, équipements sanitaires et de plomberie (pots WC, lave-mains, robinetterie), ciment colle haute performance, peintures et produits cosmétiques. Sous la direction de M. MEGOUO ARMEL SEMBENE, l'entreprise dispose d'infrastructures d'entreposage à Akwa Douala et d'un réseau solide de distributeurs à travers tout le territoire national et dans la sous-région.",
+    "mission": "Offrir aux professionnels du bâtiment, promoteurs, artisans carreleurs/plombiers et particuliers des matériaux de construction et sanitaires de premier choix, alliant esthétique, durabilité et tarifs compétitifs, avec un accompagnement technique sur mesure.",
+    "vision": "Devenir la référence sous-régionale en importation et distribution de carrelage, matériels de plomberie et produits chimiques de bâtiment au Cameroun et en Afrique Centrale.",
     "values": [
-      { "title": "Qualité", "description": "Des produits conformes aux normes, testés et approuvés par nos clients." },
-      { "title": "Confiance", "description": "Une relation durable avec distributeurs, partenaires et clients finaux." },
-      { "title": "Innovation", "description": "Des formulations et gammes adaptées aux besoins du marché camerounais." },
-      { "title": "Proximité", "description": "Une équipe accessible à Douala, au service de vos projets et chantiers." }
+      { "title": "Qualité Supérieure", "description": "Des carreaux et sanitaires contrôlés, répondant aux normes internationales de résistance et d'étanchéité." },
+      { "title": "Large Disponibilité", "description": "Des stocks permanents dans nos entrepôts de Douala pour livraison immédiate." },
+      { "title": "Prix Compétitifs", "description": "Des offres de gros et demi-gros adaptées aux chantiers de toutes dimensions." },
+      { "title": "Conseil & Service Client", "description": "Une équipe d'experts à votre écoute pour dimensionner vos besoins et vous guider." }
     ],
     "team": [
       {
         "name": "MEGOUO ARMEL SEMBENE",
         "role": "Directeur Général",
-        "description": "Fondateur et dirigeant de STRADIP SARL, il pilote la stratégie de développement et les relations partenaires."
+        "description": "Fondateur et dirigeant de STRADIP SARL, expert en sourcing international et distribution de matériaux au Cameroun."
       }
     ]
   },
   "process": [
-    { "step": 1, "title": "Prise de contact", "description": "Transmettez votre besoin via formulaire, email, téléphone ou WhatsApp." },
-    { "step": 2, "title": "Analyse & devis", "description": "Notre équipe étudie votre demande et vous propose une offre adaptée." },
-    { "step": 3, "title": "Commande", "description": "Validation du devis et planification de la livraison ou de la prestation." },
-    { "step": 4, "title": "Livraison", "description": "Distribution sur Douala et dans les principales villes du Cameroun." },
-    { "step": 5, "title": "Suivi", "description": "Accompagnement technique et satisfaction client après livraison." }
+    { "step": 1, "title": "Prise de contact", "description": "Exprimez votre besoin (carreaux, sanitaires, ciment colle, peintures) via WhatsApp, téléphone ou formulaire." },
+    { "step": 2, "title": "Conseil & Devis personnalisé", "description": "Nos techniciens calculent les quantités exactes et vous remettent une proposition tarifaire." },
+    { "step": 3, "title": "Validation & Commande", "description": "Choix des modèles en showroom ou sur catalogue et confirmation de commande." },
+    { "step": 4, "title": "Livraison sur chantier", "description": "Acheminement rapide sur vos chantiers à Douala et partout au Cameroun." },
+    { "step": 5, "title": "Suivi de satisfaction", "description": "Conseils d'installation et suivi technique après livraison." }
   ],
   "legal": {
     "privacy": "STRADIP SARL s'engage à protéger les données personnelles collectées via ce site. Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes et ne sont pas cédées à des tiers sans votre consentement. Conformément à la réglementation en vigueur, vous pouvez demander l'accès, la rectification ou la suppression de vos données en contactant stradipsarl2014@yahoo.com.",

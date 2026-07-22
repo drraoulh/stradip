@@ -34,6 +34,10 @@ export function getGallery(): GalleryItem[] {
   return galleryData as GalleryItem[];
 }
 
+export function getGalleryItems(): GalleryItem[] {
+  return galleryData as GalleryItem[];
+}
+
 export function getRealisations(): Realisation[] {
   return realisationsData as Realisation[];
 }
